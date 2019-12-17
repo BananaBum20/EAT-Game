@@ -2,7 +2,9 @@
 I decided to go with a space theme for my game. My images are not showing up on github, so 
 # Assets
 ## The ball and obstacles
-
+I made the ball and obstacles blackholes
+### Link
+https://www.deviantart.com/xolarix/art/Wormhole-Alpha-389403473
 
 ## The goal(s)
 I used planet number 13 and 16 from the link below.
