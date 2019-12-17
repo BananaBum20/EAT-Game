@@ -29,7 +29,7 @@ public class Goal : MonoBehaviour
             Debug.Log("The player has entered the goal.");
             Time.timeScale = 0.0f;
             
-            
         }
+
     }
 }

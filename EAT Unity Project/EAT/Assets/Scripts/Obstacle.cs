@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Obstacle : MonoBehaviour
 {
     public GameObject gameOverText;
+
+    
 
     private AudioSource audioSource;
 
@@ -23,7 +26,8 @@ public class Obstacle : MonoBehaviour
             Debug.Log("The player has touched the obstacle.");
             GameOver.IsGameOver = true;
             Time.timeScale = 0.0f;
-            //FreezeFrame.DoFreeze();
+           
+            
         }
     }
 }
