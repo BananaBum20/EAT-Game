@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// detect when the ball touches the goal, and then win the level.
@@ -10,6 +11,8 @@ public class Goal : MonoBehaviour
     public GameObject winText;
 
     private AudioSource audioSource;
+
+    
 
     private void Start()
     {
@@ -25,6 +28,8 @@ public class Goal : MonoBehaviour
             audioSource.Play();
             Debug.Log("The player has entered the goal.");
             Time.timeScale = 0.0f;
+            
+            
         }
     }
 }

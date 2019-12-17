@@ -19,10 +19,11 @@ public class Obstacle : MonoBehaviour
         if (collision.tag == "Player")
         {
             gameOverText.SetActive(true);
-            //audioSource.Play();
+            audioSource.Play();
             Debug.Log("The player has touched the obstacle.");
             GameOver.IsGameOver = true;
             Time.timeScale = 0.0f;
+            //FreezeFrame.DoFreeze();
         }
     }
 }
