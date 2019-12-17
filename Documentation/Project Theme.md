@@ -1,5 +1,5 @@
 # Theme
-I decided to go with a space theme for my game. My images are not showing up on github, so 
+I decided to go with a space theme for my game. My images are not showing up on github, sorryfor the inconvenience 
 # Assets
 ## The ball and obstacles
 I made the ball and obstacles blackholes
